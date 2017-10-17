@@ -1,0 +1,5 @@
+AirportName,CreateDate,FuelType,FuelPrice,FuelPriceComments,FuelVenderName,FuelVenderRadio,FuelVenderPhone,Designator,Id
+BOCCADIFALCO,2008-04-30 16:05:00,MoGas,2.34,,,,,LICP,1
+CORRIENTES,2008-04-30 16:05:00,MoGas,2.34,,,,,SARC,2
+CORRIENTES,2008-04-30 04:07:00,MoGas,4.56,,Shell canada,               ,,SARC,3
+CORRIENTES,2008-04-30 04:09:00,MoGas,4.56,,Shell canada,               ,,SARC,4

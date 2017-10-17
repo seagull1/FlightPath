@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "flightpath.api", "flightpath.api\flightpath.api.csproj", "{1B86615F-E38D-4AB4-BF2C-6108ED4835E4}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "flightpath.database", "flightpath.database\flightpath.database.sqlproj", "{A9CF2119-550A-4DE9-A4A9-ED236AF461E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B86615F-E38D-4AB4-BF2C-6108ED4835E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B86615F-E38D-4AB4-BF2C-6108ED4835E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B86615F-E38D-4AB4-BF2C-6108ED4835E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B86615F-E38D-4AB4-BF2C-6108ED4835E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CF2119-550A-4DE9-A4A9-ED236AF461E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CF2119-550A-4DE9-A4A9-ED236AF461E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CF2119-550A-4DE9-A4A9-ED236AF461E4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A9CF2119-550A-4DE9-A4A9-ED236AF461E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CF2119-550A-4DE9-A4A9-ED236AF461E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CF2119-550A-4DE9-A4A9-ED236AF461E4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90716A9C-24A0-4ED8-BD46-1F45CE508CD8}
+	EndGlobalSection
+EndGlobal
