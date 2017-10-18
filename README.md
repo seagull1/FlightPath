@@ -28,3 +28,4 @@ Update DefaultConnection value in appsettings.json in flightpath.api project, th
 </p>
 <p><a href="http://flightpathapi.azurewebsites.net/index.html">API Demo</a></p>
 </div>
+<footer><a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm">Dijkstra Algorithm used</a></footer>
