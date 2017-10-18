@@ -10,7 +10,7 @@ The route is a list of airport, landing and take off along the list help reduce 
 Architecture<br />
 ┌──────────────────────────┐        ┌──────────────────────────┐        ┌──────────────────────────┐<br />
 │  Web                     │        │  Apple App               │        │  Android APP             │<br />
-│  ASP.NET Core 2 + React  │        │  ASP.NET Core + Xamarin  │        │  ASP.NET Core + Xamarin  │<br />
+│  ASP.NET Core 2 + React  │        │  NET Core + Xamarin      │        │  NET Core + Xamarin      │<br />
 └─────────────+────────────┘        └─────────────+────────────┘        └─────────────+────────────┘<br />
               |                                   |                                   |             <br />
 --------------------------------------------------+------------------------------------------------ <br />
