@@ -1,4 +1,4 @@
-<h2>GPS for small aircraft polit</h2>
+<h2>GPS for small aircraft pilot</h2>
 <div>
 <p>
 Flight Path optimization solution for small aircraft pilot.
