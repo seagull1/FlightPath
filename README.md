@@ -13,13 +13,5 @@ Clean architecture applied to this project by adopting KISS design principle.
 * [FlightPath API](http://flightpathapi.azurewebsites.net/index.html)
 * [Swagger Document](http://flightpathapi.azurewebsites.net/swagger)
 
-### Contribution guidelines 
-
-* Writing tests
-* Code review
-* Other guidelines
-
-#### Who do I talk to? 
-
-* Repo owner or admin
-* Other community or team contact
+### Database 
+flightpath.database contains table and data(in excel files).
