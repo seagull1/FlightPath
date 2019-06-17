@@ -8,6 +8,7 @@ namespace FlightPath.Infrastructure
     {
         public Task SendAsync(Message message)
         {
+            //email, external service, queue etc.
             return Task.CompletedTask;
         }
     }
