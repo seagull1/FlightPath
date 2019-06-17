@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>GPS for small aircraft polit</title>
+</head>
+<body>
+<h2>GPS for small aircraft polit</h2>
+<div>
+<p>
+Flight Path optimization solution for small aircraft pilot.
+Small aircraft might need make some stops in order to reach final distance.
+This solution provides shortest flying route between departure and arrival airport.
+The route is a list of airport, landing and take off along the list help reduce flying time.
+</p>
+<pre>
+Architecture<br />
+┌──────────────────────────┐        ┌──────────────────────────┐        ┌──────────────────────────┐<br />
+│  Web                     │        │  Apple App               │        │  Android APP             │<br />
+│  ASP.NET Core 2 + React  │        │  ASP.NET Core + Xamarin  │        │  ASP.NET Core + Xamarin  │<br />
+└─────────────+────────────┘        └─────────────+────────────┘        └─────────────+────────────┘<br />
+              |                                   |                                   |             <br />
+--------------------------------------------------+------------------------------------------------ <br />
+                                                  |                                                 <br />
+                           ┌──────────────────────+────────────────┐<br />
+                           │ WEB API                               │<br />
+                           │ .NET core 2 + Entity Framework Core 2 │<br />
+                           └───────────────────────────────────────┘<br />
+
+</pre>
+<h2>API</h2>
+<p>
+For example if fly from Vancouver to NY with a
+fly range 400 miles small aircraft, some stops are needed for fuel. This api
+can generate an optimized route in order to arrive NY by a shortest flight path.
+</p>
+<p><a href="https://github.com/seagull1/FlightPath">Code on GitHub</a></p>
+<div>
+<table border="1">
+<thead>
+<tr>
+<th>Http Verb</th>
+<th>URL</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GET</td>
+<td>/api/airport/{designator}</td>
+<td>Get airport by designator</td>
+<td><a href="http://flightpathapi.azurewebsites.net/api/airport/get/cyvr" target="_blank">api/airport/get/cyvr</a></td>
+</tr>
+<tr>
+<td>GET</td>
+<td>api/aircraft/{Id}</td>
+<td>Get an aircraft by Id</td>
+<td><a href="http://flightpathapi.azurewebsites.net/api/aircraft/get/1" target="_blank">api/aircraft/get/1</a></td>
+</tr>
+<!--<tr>
+<td>GET</td>
+<td>api/aircraft/{make}/{model}</td>
+<td>Get list of aircrafts by make and model</td>
+<td><a href="http://flightpathapi.azurewebsites.net/api/aircraft/aeronca/champ" target="_blank">api/aircraft/aeronca/champ</a></td>
+</tr>-->
+<tr>
+<td>GET</td>
+<td>api/flightpath/aircraftId/startAirport/endAirport</td>
+<td>Get shorltest flight route from start airport to end airport</td>
+<td><a href="http://flightpathapi.azurewebsites.net/api/Route?AircraftId=1&StartAirport=cyvr&EndAirport=nu8" target="_blank">api/Route?AircraftId=1&StartAirport=cyvr&EndAirport=nu8</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</body>
+</html>
